@@ -39,7 +39,6 @@ class ActiveRectAngle: ObservableObject {
     var longPressGesture: some Gesture {
         LongPressGesture()
             .onEnded { value in
-                print("LongTap")
                 withAnimation {
                     self.sizeIndex += 1
                     if self.sizeIndex == self.sizes.count {
@@ -61,7 +60,6 @@ class ActiveRectAngle: ObservableObject {
     var dragGesture: some Gesture {
         DragGesture()
             .onChanged { value in
-                print("Drag")
                 self.offset = CGSize(
                     width: value.startLocation.x + value.translation.width - self.size.width/2,
                     height: value.startLocation.y + value.translation.height - self.size.height/2
