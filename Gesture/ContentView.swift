@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//VScodeで変更を加えました
 struct ContentView: View {
     @State private var rectAngle = ActiveRectAngle(
         sizes: [CGSize(width: 150, height: 80),
