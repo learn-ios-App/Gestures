@@ -11,6 +11,7 @@
 		8BE6D1172B73203B00AB04DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE6D1162B73203B00AB04DF /* ContentView.swift */; };
 		8BE6D1192B73203C00AB04DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE6D1182B73203C00AB04DF /* Assets.xcassets */; };
 		8BE6D11C2B73203C00AB04DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE6D11B2B73203C00AB04DF /* Preview Assets.xcassets */; };
+		8BE6D1232B7320A900AB04DF /* ActiveRectAngle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE6D1222B7320A900AB04DF /* ActiveRectAngle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8BE6D1162B73203B00AB04DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8BE6D1182B73203C00AB04DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BE6D11B2B73203C00AB04DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BE6D1222B7320A900AB04DF /* ActiveRectAngle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveRectAngle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				8BE6D1142B73203B00AB04DF /* GestureApp.swift */,
+				8BE6D1222B7320A900AB04DF /* ActiveRectAngle.swift */,
 				8BE6D1162B73203B00AB04DF /* ContentView.swift */,
 				8BE6D1182B73203C00AB04DF /* Assets.xcassets */,
 				8BE6D11A2B73203C00AB04DF /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE6D1232B7320A900AB04DF /* ActiveRectAngle.swift in Sources */,
 				8BE6D1172B73203B00AB04DF /* ContentView.swift in Sources */,
 				8BE6D1152B73203B00AB04DF /* GestureApp.swift in Sources */,
 			);
